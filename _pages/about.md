@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master's student at FudanNLP Lab, Fudan University. My research focuses on **self-evoling agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT (DeepSpeed, LLaMA-Factory), RL (verl, trl), and harness engineering. I am currently an Algorithm Researcher at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.), and previously interned at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2025.
+I am a master's student at FudanNLP Lab, Fudan University, co-advised by Associate Prof. [Tao Gui (桂 韬)](https://guitaowufeng.github.io/) and Prof. [Xuanjing Huang (黄萱菁)](https://xuanjing-huang.github.io/). My research focuses on **self-evoling agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT (DeepSpeed, LLaMA-Factory), RL (verl, trl), and harness engineering. I am currently an Algorithm Researcher at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.), and previously interned at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2025.
 
 You can find my publications on <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a>. Feel free to reach out to me at <a href='mailto:1187524561@qq.com'>1187524561@qq.com</a>.
 
