@@ -15,7 +15,7 @@ jobs:
       - name: Compute total stars and write badge JSON
         run: |
           set -e
-          REPOS="china-qijizhifeng/agentic-harness-engineering nex-agi/Nex-N1"
+          REPOS="china-qijizhifeng/agentic-harness-engineering china-qijizhifeng/nexau"
           total=0
           for r in $REPOS; do
             s=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
