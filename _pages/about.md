@@ -59,7 +59,7 @@ Chengjun Pan\*, Shichun Liu\*, **Jiahang Lin**\*, Dingwei Zhu, Jiazheng Zhang, S
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/mm-doc-r1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 ### MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning
