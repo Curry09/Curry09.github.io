@@ -108,7 +108,7 @@ Nex-AGI Team: Yuxuan Cai, Lu Chen, …, **Jiahang Lin**, …, Xuanjing Huang, Xi
 </div>
 
 # 🎖 Honors and Awards
-- *2024*, **[1st Prize](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)**, Tencent Open AI Competition · Agent Game Algorithm Track · Mainland China Regional Final. Team: 五角场三分王, Fudan University.
+- *2024*, **[1st Prize](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)**, 2024 Tencent AI Arena Global Open Competition · Agent Game Algorithm Track · Mainland China Regional Final. Team: 五角场三分王, Fudan University.
 
 # 📖 Education
 - *2025.09 - Present*, **M.S.**, Fudan University (FudanNLP Lab).
