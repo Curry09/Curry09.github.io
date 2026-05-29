@@ -31,8 +31,8 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 - Agent Memory and Context Management
 
 # 💻 Internships
-- *2025.03 - Present*, Algorithm Researcher, **NEX-AGI** (Shanghai Qiji Zhifeng Co., Ltd.), Shanghai. Working on agent memory and context management.
-- *2024.07 - 2024.09*, Research Intern, **Huawei**, Computing Product Line, Computing Research Department.
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/NEX.svg" alt="NEX-AGI" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2025.3 - Present** · Algorithm Researcher, **NEX-AGI** (Shanghai Qiji Zhifeng Co., Ltd.), Shanghai<br><em>Agent memory and context management</em></span>
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/huawei.svg" alt="Huawei" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.7 - 2024.9** · Research Intern, **Huawei**, Computing Product Line, Computing Research Department</span>
 
 # 📝 Publications
 
