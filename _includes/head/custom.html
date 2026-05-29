@@ -20,4 +20,38 @@
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
+<!-- Bilingual (中/EN) language switch -->
+<style>
+  /* Default: English visible, Chinese hidden. The <html> class decides which. */
+  html.lang-en .lang-zh { display: none !important; }
+  html.lang-zh .lang-en { display: none !important; }
+
+  /* Floating language toggle button */
+  .lang-toggle {
+    position: fixed;
+    top: 14px;
+    right: 16px;
+    z-index: 1000;
+    padding: 6px 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.92);
+    color: #333;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+  .lang-toggle:hover { background: #000; color: #fff; }
+</style>
+<script>
+  /* Set the language class BEFORE paint to avoid a flash of the wrong language. */
+  (function () {
+    var lang = 'en';
+    try { lang = localStorage.getItem('site-lang') || 'en'; } catch (e) {}
+    document.documentElement.classList.add('lang-' + (lang === 'zh' ? 'zh' : 'en'));
+  })();
+</script>
+
 <!-- end custom head snippets -->

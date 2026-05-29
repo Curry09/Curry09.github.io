@@ -8,6 +8,9 @@
 # Site Settings
 title                    : "Jiahang Lin"
 description              : "Personal homepage of Jiahang Lin (林佳航), M.S. student at FudanNLP Lab, Fudan University. Research interests: autonomous agents and reinforcement learning."
+# Sidebar blurb shown under the avatar. `description` stays English for SEO; these drive the visible sidebar text in each language.
+sidebar_blurb            : "Personal homepage of Jiahang Lin (林佳航), M.S. student at FudanNLP Lab, Fudan University. Research interests: autonomous agents and reinforcement learning."
+sidebar_blurb_zh         : "林佳航的个人主页，复旦大学 FudanNLP 实验室硕士研究生。研究方向：自主智能体与强化学习。"
 repository               : "Curry09/Curry09.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,9 +25,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Jiahang Lin"
+  name_zh          : "林佳航"
   avatar           : "images/avatar.png"
   bio              : "M.S. Student at FudanNLP Lab, Fudan University"
+  bio_zh           : "复旦大学 FudanNLP 实验室 硕士研究生"
   location         : "Shanghai, China"
+  location_zh      : "中国 · 上海"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=bn6dnQ8AAAAJ"
