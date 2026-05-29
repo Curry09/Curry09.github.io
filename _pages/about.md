@@ -14,7 +14,7 @@ I am a master's student at FudanNLP Lab, Fudan University. My research focuses o
 
 You can find my publications on <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a>. Feel free to reach out to me at <a href='mailto:1187524561@qq.com'>1187524561@qq.com</a>.
 
-[![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09)
+[![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09) [![1st Prize · Tencent Open AI Competition 2024](https://img.shields.io/badge/%F0%9F%8F%86_1st_Prize-Tencent_Open_AI_Competition_2024-gold)](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)
 
 # 🔥 News
 - *2026.05*: 🎉🎉 **AHE** (Agentic Harness Engineering) is released on [arXiv](https://arxiv.org/abs/2604.25850)!
@@ -108,7 +108,7 @@ Nex-AGI Team: Yuxuan Cai, Lu Chen, …, **Jiahang Lin**, …, Xuanjing Huang, Xi
 </div>
 
 # 🎖 Honors and Awards
-- *2024*, **1st Prize**, Tencent Open AI Competition · Agent Game Algorithm Track · Mainland China Regional Final. Team: 五角场三分王, Fudan University.
+- *2024*, **[1st Prize](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)**, Tencent Open AI Competition · Agent Game Algorithm Track · Mainland China Regional Final. Team: 五角场三分王, Fudan University.
 
 # 📖 Education
 - *2025.09 - Present*, **M.S.**, Fudan University (FudanNLP Lab).
