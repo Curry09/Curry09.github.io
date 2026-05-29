@@ -1,0 +1,40 @@
+name: Update Total Stars Badge
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Compute total stars and write badge JSON
+        run: |
+          set -e
+          REPOS="china-qijizhifeng/agentic-harness-engineering nex-agi/Nex-N1"
+          total=0
+          for r in $REPOS; do
+            s=$(curl -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                     -H "Accept: application/vnd.github+json" \
+                     "https://api.github.com/repos/$r" \
+                 | python3 -c "import sys,json;print(json.load(sys.stdin).get('stargazers_count',0))")
+            echo "$r -> $s"
+            total=$((total + s))
+          done
+          echo "TOTAL=$total"
+          mkdir -p out
+          cat > out/total-stars.json <<EOF
+          {"schemaVersion":1,"label":"Total Stars","message":"$total","color":"f5a623","namedLogo":"github","logoColor":"white"}
+          EOF
+          cat out/total-stars.json
+      - name: Push badge JSON to star-badge branch
+        run: |
+          cd out
+          git init -q
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          git add total-stars.json
+          git commit -q -m "Update total stars badge"
+          git push "${remote_repo}" HEAD:star-badge --force

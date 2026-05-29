@@ -12,7 +12,7 @@ redirect_from:
 
 I am a master's student at FudanNLP Lab, Fudan University. My research focuses on **self-evoling agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT (DeepSpeed, LLaMA-Factory), RL (verl, trl), and harness engineering. I am currently an Algorithm Researcher at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.), and previously interned at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2024.
 
-[![GitHub Stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2FCurry09&query=%24.stars&label=GitHub%20Stars&logo=github&logoColor=white&color=f5a623&style=flat)](https://github.com/Curry09)
+[![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09)
 
 # 🔥 News
 - Stay tuned…
@@ -37,7 +37,7 @@ I am a master's student at FudanNLP Lab, Fudan University. My research focuses o
 
 - AHE is an observability stack for the automatic optimization of coding-agent harnesses, with three pillars: component observability (NexAU), experience observability (Agent Debugger), and decision observability (evidence-driven Evolve Agent).
 - Without changing the model, AHE pushes Terminal-bench 2 from 69.7% to 77.0% across iterations, with strong cross-task and cross-model generalization.
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.25850) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/china-qijizhifeng/agentic-harness-engineering)
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.25850) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/china-qijizhifeng/agentic-harness-engineering) \| [![](https://img.shields.io/github/stars/china-qijizhifeng/agentic-harness-engineering?style=social)](https://github.com/china-qijizhifeng/agentic-harness-engineering)
 
 </div>
 </div>
@@ -97,7 +97,7 @@ Nex-AGI Team: Yuxuan Cai, Lu Chen, …, **Jiahang Lin**, …, Xuanjing Huang, Xi
 
 - We introduce a comprehensive method designed to systematically scale the diversity and complexity of interactive environments through three orthogonal dimensions: Complexity (NexAU), Diversity (NexA4A), and Fidelity (NexGAP).
 - Nex-N1 consistently outperforms SOTA open-source models and achieves competitive performance against frontier proprietary models on complex agentic tasks (SWE-bench, tau2).
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2512.04987)
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2512.04987) \| [![](https://img.shields.io/github/stars/nex-agi/Nex-N1?style=social)](https://github.com/nex-agi/Nex-N1)
 
 </div>
 </div>
