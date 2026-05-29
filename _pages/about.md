@@ -10,22 +10,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master's student at FudanNLP Lab, Fudan University. My research focuses on **autonomous agents** and **reinforcement learning**, with current interests in agent memory and long-horizon context management. I am currently an Algorithm Researcher at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.), and previously interned at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2024.
-
-You can find my publications on <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a>.
-
+I am a master's student at FudanNLP Lab, Fudan University. My research focuses on **self-evoling agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT (DeepSpeed, LLaMA-Factory), RL (verl, trl), and harness engineering. I am currently an Algorithm Researcher at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.), and previously interned at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2024.
 
 # 🔥 News
 - Stay tuned…
 
 # 🎯 Research Interests
-- Autonomous Agents
+- Self-evoling Agents
 - Reinforcement Learning
-- Agent Memory and Context Management
 
 # 💻 Internships
-- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/NEX.svg" alt="NEX-AGI" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2025.3 - Present** · Algorithm Researcher, **NEX-AGI** (Shanghai Qiji Zhifeng Co., Ltd.), Shanghai<br><em>Agent memory and context management</em></span>
-- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/huawei.svg" alt="Huawei" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.7 - 2024.9** · Research Intern, **Huawei**, Computing Product Line, Computing Research Department</span>
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/NEX.svg" alt="NEX-AGI" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2025.3 - Present** · Algorithm Researcher, **NEX-AGI** (Shanghai Qiji Zhifeng Co., Ltd.), Shanghai<br><em>Self-evolving agents & reinforcement learning for coding and search agents</em></span>
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/huawei.svg" alt="Huawei" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.7 - 2024.9** · Research Intern, **Huawei** Computing Product Line, Computing Research Department<br><em>Fine-tuning long-context LLMs on Ascend 910B</em></span>
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/fudannlp.png" alt="FudanNLP" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.4 - 2024.7** · Research Intern, **FudanNLP Lab**, Fudan University</span>
 
 # 📝 Publications
 
@@ -64,7 +61,7 @@ Chengjun Pan\*, Shichun Liu\*, **Jiahang Lin**\*, Dingwei Zhu, Jiazheng Zhang, S
 
 ### MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning
 
-**Jiahang Lin**, Kai Hu, Binghai Wang, Yuhao Zhou, Zhiheng Xi, Honglin Guo, Shichun Liu, Junzhe Wang, Shihan Dou, Enyu Zhou, Hang Yan, Zhenhua Han, Tao Gui<small>†</small>, Qi Zhang<small>†</small>, Xuanjing Huang<small>†</small>
+**Jiahang Lin**\*, Kai Hu\*, Binghai Wang, Yuhao Zhou, Zhiheng Xi, Honglin Guo, Shichun Liu, Junzhe Wang, Shihan Dou, Enyu Zhou, Hang Yan, Zhenhua Han, Tao Gui<small>†</small>, Qi Zhang<small>†</small>, Xuanjing Huang<small>†</small>
 
 - Conventional RAG systems struggle with complex multi-hop queries over long documents due to their single-pass retrieval. MM-Doc-R1 trains agents for long-document visual question answering via multi-turn reinforcement learning.
 - The agent learns to interleave retrieval and reasoning across many turns, achieving substantial gains on long-document VQA benchmarks compared to single-pass and prompt-only baselines.
@@ -107,5 +104,5 @@ Nex-AGI Team: Yuxuan Cai, Lu Chen, …, **Jiahang Lin**, …, Xuanjing Huang, Xi
 - *2024*, **1st Prize**, Tencent Open AI Competition · Agent Game Algorithm Track · Mainland China Regional Final. Team: 五角场三分王, Fudan University.
 
 # 📖 Education
-- *2024.09 - Present*, **M.S.**, Fudan University (FudanNLP Lab).
-- *2020.09 - 2024.06*, **B.S.**, Fudan University.
+- *2025.09 - Present*, **M.S.**, Fudan University (FudanNLP Lab).
+- *2021.09 - 2025.06*, **B.S.**, Fudan University.
