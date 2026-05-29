@@ -17,7 +17,10 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 [![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09)
 
 # 🔥 News
-- Stay tuned…
+- *2026.05*: 🎉🎉 **AHE** (Agentic Harness Engineering) is released on [arXiv](https://arxiv.org/abs/2604.25850)!
+- *2026.04*: 🎉🎉 **[MM-Doc-R1](https://arxiv.org/abs/2604.13579)** is accepted by **ACL 2026 Findings**!
+- *2026.04*: 🎉🎉 **[OctoBench](https://arxiv.org/abs/2601.10343)** is accepted by **ACL 2026 Main**!
+- *2025.12*: 🎉🎉 **Nex-N1**, our agentic model trained via a unified ecosystem for large-scale environment construction, is released on [arXiv](https://arxiv.org/abs/2512.04987)!
 
 # 🎯 Research Interests
 - Self-evoling Agents
