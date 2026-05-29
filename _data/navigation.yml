@@ -7,24 +7,20 @@ main:
 
   - title: "News"
     title_zh: "最新动态"
-    url: "/#-news"
-
-  - title: "Research Interests"
-    title_zh: "研究方向"
-    url: "/#-research-interests"
+    url: "/#news"
 
   - title: "Internships"
     title_zh: "实习经历"
-    url: "/#-internships"
+    url: "/#internships"
 
   - title: "Publications"
     title_zh: "论文发表"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Honors and Awards"
     title_zh: "荣誉奖项"
-    url: "/#-honors-and-awards"
+    url: "/#honors-and-awards"
 
   - title: "Education"
     title_zh: "教育经历"
-    url: "/#-education"
+    url: "/#education"

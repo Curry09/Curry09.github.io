@@ -22,10 +22,12 @@ Keep the two spans **adjacent with no space between them** (a stray space shows 
 **2. Section headings** — keep the shared emoji outside the spans, and pin an explicit ID so nav anchors never break:
 
 ```markdown
-# 🔥 <span class="lang-en">News</span><span class="lang-zh">最新动态</span> {#-news}
+# 🔥 <span class="lang-en">News</span><span class="lang-zh">最新动态</span> {#news}
 ```
 
-The `{#-news}` is required — `_data/navigation.yml` links to `/#-news`, `/#-internships`, `/#-publications`, `/#-honors-and-awards`, `/#-education`. If you rename or add a section, keep the ID in sync with the nav file.
+The `{#news}` is required — `_data/navigation.yml` links to `/#news`, `/#internships`, `/#publications`, `/#honors-and-awards`, `/#education`. If you rename or add a section, keep the ID in sync with the nav file.
+
+> ⚠️ **The ID must start with a letter, not a hyphen.** kramdown only consumes the `{#id}` attribute when the ID begins with a letter; an ID like `{#-news}` is left in the rendered page as literal text (and the heading never gets the ID, so the nav anchor breaks). Use `{#news}`, never `{#-news}`.
 
 **3. Publications** — paper **titles and author lists stay English-only** (academic convention). Only the bullet descriptions under each paper are bilingual (wrap each bullet's text in the two spans). Badges, images, links, dates are shared (written once, no spans).
 
