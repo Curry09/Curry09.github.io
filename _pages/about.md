@@ -12,6 +12,8 @@ redirect_from:
 
 I am a master's student at FudanNLP Lab, Fudan University. My research focuses on **self-evoling agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT (DeepSpeed, LLaMA-Factory), RL (verl, trl), and harness engineering. I am currently an Algorithm Researcher at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.), and previously interned at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2024.
 
+[![GitHub Stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2FCurry09&query=%24.stars&label=GitHub%20Stars&logo=github&logoColor=white&color=f5a623&style=flat)](https://github.com/Curry09)
+
 # 🔥 News
 - Stay tuned…
 
@@ -22,7 +24,7 @@ I am a master's student at FudanNLP Lab, Fudan University. My research focuses o
 # 💻 Internships
 - <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/NEX.svg" alt="NEX-AGI" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2025.3 - Present** · Algorithm Researcher, **NEX-AGI** (Shanghai Qiji Zhifeng Co., Ltd.), Shanghai<br><em>Self-evolving agents & reinforcement learning for coding and search agents</em></span>
 - <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/huawei.svg" alt="Huawei" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.7 - 2024.9** · Research Intern, **Huawei** Computing Product Line, Computing Research Department<br><em>Fine-tuning long-context LLMs on Ascend 910B</em></span>
-- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/fudannlp.png" alt="FudanNLP" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.4 - 2024.7** · Research Intern, **FudanNLP Lab**, Fudan University</span>
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/fudannlp.png" alt="FudanNLP" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;">**2024.4 - 2024.7** · Research Intern, **FudanNLP Lab**, Fudan University<br><em>大模型安全攻防项目，训练红队大模型</em></span>
 
 # 📝 Publications
 
