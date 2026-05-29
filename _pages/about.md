@@ -42,7 +42,7 @@ You can find my publications on <a href='https://scholar.google.com/citations?us
 
 - AHE is an observability stack for the automatic optimization of coding-agent harnesses, with three pillars: component observability (NexAU), experience observability (Agent Debugger), and decision observability (evidence-driven Evolve Agent).
 - Without changing the model, AHE pushes Terminal-bench 2 from 69.7% to 77.0% across iterations, with strong cross-task and cross-model generalization.
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.25850) \| [![](https://img.shields.io/badge/Blog-fff?logo=rss&logoColor=000)](https://dawning-road.github.io/blog/agentic-harness-engineering) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/china-qijizhifeng/agentic-harness-engineering) \| [![](https://img.shields.io/github/stars/china-qijizhifeng/agentic-harness-engineering?style=social)](https://github.com/china-qijizhifeng/agentic-harness-engineering)
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.25850) \| [![](https://img.shields.io/badge/Blog-fff?logo=githubpages&logoColor=000)](https://dawning-road.github.io/blog/agentic-harness-engineering) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/china-qijizhifeng/agentic-harness-engineering) \| [![](https://img.shields.io/github/stars/china-qijizhifeng/agentic-harness-engineering?style=social)](https://github.com/china-qijizhifeng/agentic-harness-engineering)
 
 </div>
 </div>
@@ -57,7 +57,7 @@ Chengjun Pan\*, Shichun Liu\*, **Jiahang Lin**\*, Dingwei Zhu, Jiazheng Zhang, S
 
 - We cast baseline selection in LLM post-training as a Kalman filtering problem, unifying PPO and GRPO as two extremes of the Kalman gain, and prove that the sign of explained variance (EV) is the exact boundary separating the variance-reducing from the variance-inflating critic regime.
 - EVPO adaptively switches between critic-based and batch-mean advantage estimation per step based on EV sign, achieving the best results across Sokoban, FrozenLake, WebShop, and MATH.
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.19485)
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.19485) \| [![](https://img.shields.io/badge/Blog-fff?logo=githubpages&logoColor=000)](https://dawning-road.github.io/blog/evpo)
 
 </div>
 </div>
@@ -87,7 +87,7 @@ Deming Ding\*, Shichun Liu\*, Enhui Yang\*, **Jiahang Lin**\*, Ziying Chen, Shih
 
 - Modern coding scaffolds turn LLMs into capable software agents, but their ability to follow scaffold-specified instructions remains under-examined. OctoBench benchmarks scaffold-aware instruction following in repository-grounded agentic coding.
 - OctoBench includes 34 environments and 217 tasks under three scaffold types, with 7,098 objective checklist items. We release an automated observation-and-scoring toolkit for full trajectories and fine-grained checks.
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2601.10343)
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2601.10343) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/MiniMax-AI/mini-vela) \| [![](https://img.shields.io/github/stars/MiniMax-AI/mini-vela?style=social)](https://github.com/MiniMax-AI/mini-vela) \| [![](https://img.shields.io/badge/Dataset-fff?logo=huggingface&logoColor=000)](https://huggingface.co/datasets/MiniMaxAI/OctoBench)
 
 </div>
 </div>
