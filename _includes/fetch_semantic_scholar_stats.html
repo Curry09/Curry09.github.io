@@ -10,30 +10,52 @@
         {% else %}
         var s2DataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
         {% endif %}
+
+        // Same shape as the hand-written Paper/Code/Dataset badges in about.md,
+        // so a citation count sits in the badge row without looking bolted on.
+        // shields.io reads - _ as separators inside a /badge/ path segment, so a
+        // literal one has to be doubled. Unescaped "h-index" renders a 404 badge.
+        function s2Esc(text) {
+            return encodeURIComponent(String(text).replace(/-/g, '--').replace(/_/g, '__'))
+        }
+
+        function s2Badge(label, value, alt, href) {
+            var url = 'https://img.shields.io/badge/' + s2Esc(label) + '-'
+                    + s2Esc(value) + '-fff?logo=semanticscholar&logoColor=000'
+            var img = '<img src="' + url + '" alt="' + alt + '">'
+            if (!href) { return img }
+            return '<a href="' + href + '" target="_blank" rel="noopener" title="' + alt + '">' + img + '</a>'
+        }
+
         $.getJSON(s2DataBaseUrl + "semantic-scholar-stats/s2_data.json", function (data) {
+            var authorUrl = data['author_id']
+                ? 'https://www.semanticscholar.org/author/' + data['author_id']
+                : null
+
+            var wrapper = document.getElementById('s2_total_cit_wrapper')
+            var shown = false
             var totalEle = document.getElementById('s2_total_cit')
             if (totalEle && data['citedby'] != null) {
-                totalEle.innerHTML = data['citedby']
-                var wrapper = document.getElementById('s2_total_cit_wrapper')
-                if (wrapper) { wrapper.style.display = '' }
+                totalEle.innerHTML = s2Badge('Citations', data['citedby'],
+                    'Total citations on Semantic Scholar', authorUrl)
+                shown = true
             }
             var hIndexEle = document.getElementById('s2_h_index')
             if (hIndexEle && data['h_index'] != null) {
-                hIndexEle.innerHTML = data['h_index']
+                hIndexEle.innerHTML = s2Badge('h-index', data['h_index'],
+                    'h-index on Semantic Scholar', authorUrl)
+                shown = true
             }
+            if (wrapper && shown) { wrapper.style.display = '' }
+
             var citationEles = document.getElementsByClassName('show_s2_citations')
             Array.prototype.forEach.call(citationEles, function (element) {
                 var arxivId = element.getAttribute('data')
                 var paper = data['publications'][arxivId]
                 if (!paper) { return }
-                var link = document.createElement('a')
-                link.href = paper['url']
-                link.target = '_blank'
-                link.rel = 'noopener'
-                link.title = 'Citation count from Semantic Scholar'
-                link.innerHTML = 'Citations: ' + paper['citationCount']
-                element.innerHTML = '| '
-                element.appendChild(link)
+                var alt = 'Citations: ' + paper['citationCount'] + ' (Semantic Scholar)'
+                element.innerHTML = '| ' + s2Badge('Citations', paper['citationCount'],
+                    alt, paper['url'])
             })
         });
     })

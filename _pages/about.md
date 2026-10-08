@@ -38,7 +38,7 @@ redirect_from:
 
 # 📝 <span class="lang-en">Publications</span><span class="lang-zh">论文发表</span> {#publications}
 
-<p id="s2_total_cit_wrapper" style="display: none; margin-top: -0.5em; font-size: 0.9em;"><span class="lang-en">Citations</span><span class="lang-zh">总被引</span>: <strong id="s2_total_cit"></strong> &nbsp;·&nbsp; <span class="lang-en">h-index</span><span class="lang-zh">h 指数</span>: <strong id="s2_h_index"></strong> &nbsp;·&nbsp; <a href="https://www.semanticscholar.org/author/2399060433" target="_blank" rel="noopener">Semantic Scholar</a></p>
+<p id="s2_total_cit_wrapper" style="display: none; margin-top: -0.5em;"><span id="s2_total_cit"></span> <span id="s2_h_index"></span></p>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/evoin.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

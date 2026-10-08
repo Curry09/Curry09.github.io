@@ -57,7 +57,13 @@ Click the **中 / EN** button and confirm BOTH languages look right before commi
 ## Citation counts (Semantic Scholar)
 
 Per-paper citation counts in the Publications list, plus a total + h-index line
-under the heading, come from the **Semantic Scholar Graph API**.
+under the heading, come from the **Semantic Scholar Graph API**. They render as
+shields.io badges with the Semantic Scholar logo (`logo=semanticscholar`,
+`-fff?logoColor=000`), matching the hand-written Paper/Code/Dataset badges.
+
+> shields.io treats `-` and `_` as separators inside a `/badge/` path segment,
+> so `s2Badge()` doubles them. An unescaped `h-index` renders a *"404 badge not
+> found"* image, which is easy to miss.
 
 | Piece | Where |
 |---|---|
