@@ -45,7 +45,7 @@ redirect_from:
 
 ### EvoIn: Bridging Evolution and Internalization for Agent Fine-Tuning
 
-Shihan Dou, Shaofan Liu, Zhonghang Lu, **Jiahang Lin**, Shichun Liu, Binghai Wang, Jiajie Jin, Guanting Dong, Tao Gui, Qi Zhang, Xuanjing Huang
+Shihan Dou\*, Shaofan Liu\*, Zhonghang Lu\*, **Jiahang Lin**, Shichun Liu, Binghai Wang, Jiajie Jin, Guanting Dong, Tao Gui<small>†</small>, Qi Zhang, Xuanjing Huang
 
 - <span class="lang-en">EvoIn is an agent fine-tuning framework that bridges evolution and internalization: it analyzes execution traces to evolve and validate new decision-making procedures by temporarily instantiating them in the harness, then rewrites the resulting traces into self-contained reasoning so the procedures persist without the evolved harness at inference time.</span><span class="lang-zh">EvoIn 是一个打通「演化」与「内化」的智能体微调框架：先分析执行轨迹，通过把新的决策流程临时注入 harness 来演化并验证它们，再把由此得到的轨迹改写为自包含的推理，使这些流程在推理时脱离演化后的 harness 依然保留。</span>
 - <span class="lang-en">Fine-tuning on the rewritten traces improves performance by 10.9 points in-domain and 9.2 points out-of-domain, and the internalized procedures generalize to unseen tasks — agents learn, for example, to adapt their verification effort to task complexity.</span><span class="lang-zh">在改写后的轨迹上微调带来域内 10.9 分、域外 9.2 分的提升，且内化后的决策流程可泛化到未见任务——例如智能体会学到按任务复杂度调整验证力度。</span>
