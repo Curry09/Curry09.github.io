@@ -1,9 +1,14 @@
 <script>
     $(document).ready(function () {
-        {% if site.citation_stats_use_cdn %}
-        var s2DataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
+        {% comment %}
+        jsDelivr unless citation_stats_use_cdn is explicitly false --
+        raw.githubusercontent.com is unreachable from mainland China, so a
+        missing key must not silently fall back to it.
+        {% endcomment %}
+        {% if site.citation_stats_use_cdn == false %}
         var s2DataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        {% else %}
+        var s2DataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
         {% endif %}
         $.getJSON(s2DataBaseUrl + "semantic-scholar-stats/s2_data.json", function (data) {
             var totalEle = document.getElementById('s2_total_cit')

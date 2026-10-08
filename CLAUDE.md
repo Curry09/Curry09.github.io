@@ -76,15 +76,20 @@ Notes:
 - The author id lives in the workflow (`SEMANTIC_SCHOLAR_AUTHOR_ID`, currently
   `2399060433`); override it with a repo variable of the same name. An optional
   `SEMANTIC_SCHOLAR_API_KEY` secret raises the rate limit but isn't needed.
-- Papers with 0 citations show nothing, and if the branch or the fetch is
-  missing the page just renders without citations — no broken text.
+- Every paper shows its own count, 0 included. If the branch is missing or the
+  fetch fails the page just renders without citations — no broken text, no
+  dangling `|`.
 - Numbers lag reality: the job runs daily at 08:30 UTC and jsDelivr caches a
   branch path for up to ~12h. Run the workflow manually from the Actions tab to
   refresh sooner.
-- Google Scholar numbers are *also* already being collected
-  (`google_scholar_crawler`, `google-scholar-stats` branch,
-  `_includes/fetch_google_scholar_stats.html`) but nothing in the page
-  currently displays them. That include looks for `#total_cit` and
-  `.show_paper_citations` with Google Scholar `author_pub_id` values.
+- The data is read through jsDelivr unless `citation_stats_use_cdn` in
+  `_config.yml` is set to `false`; raw.githubusercontent.com is unreachable
+  from mainland China, so the CDN is the default rather than the opt-in.
+- Semantic Scholar is the **only** citation source. The upstream template's
+  Google Scholar pipeline (`google_scholar_crawler`, its workflow, and
+  `_includes/fetch_google_scholar_stats.html`) was removed deliberately — don't
+  reintroduce it. `docs/README-zh.md` is upstream template documentation and
+  still describes it. The Google Scholar *profile links* in `about.md` and the
+  sidebar are unrelated and stay.
 - Run the crawler locally with:
   `cd semantic_scholar_crawler && SEMANTIC_SCHOLAR_AUTHOR_ID=2399060433 python main.py`
