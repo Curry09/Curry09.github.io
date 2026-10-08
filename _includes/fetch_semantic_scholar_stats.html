@@ -1,0 +1,35 @@
+<script>
+    $(document).ready(function () {
+        {% if site.citation_stats_use_cdn %}
+        var s2DataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        {% else %}
+        var s2DataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        {% endif %}
+        $.getJSON(s2DataBaseUrl + "semantic-scholar-stats/s2_data.json", function (data) {
+            var totalEle = document.getElementById('s2_total_cit')
+            if (totalEle && data['citedby'] != null) {
+                totalEle.innerHTML = data['citedby']
+                var wrapper = document.getElementById('s2_total_cit_wrapper')
+                if (wrapper) { wrapper.style.display = '' }
+            }
+            var hIndexEle = document.getElementById('s2_h_index')
+            if (hIndexEle && data['h_index'] != null) {
+                hIndexEle.innerHTML = data['h_index']
+            }
+            var citationEles = document.getElementsByClassName('show_s2_citations')
+            Array.prototype.forEach.call(citationEles, function (element) {
+                var arxivId = element.getAttribute('data')
+                var paper = data['publications'][arxivId]
+                if (!paper) { return }
+                var link = document.createElement('a')
+                link.href = paper['url']
+                link.target = '_blank'
+                link.rel = 'noopener'
+                link.title = 'Citation count from Semantic Scholar'
+                link.innerHTML = 'Citations: ' + paper['citationCount']
+                element.innerHTML = '| '
+                element.appendChild(link)
+            })
+        });
+    })
+</script>

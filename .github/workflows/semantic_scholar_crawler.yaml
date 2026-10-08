@@ -1,0 +1,30 @@
+name: Get Semantic Scholar Citation Data
+
+on:
+ workflow_dispatch:
+ schedule:
+  - cron:  '30 8 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Run
+      run: |
+        cd ./semantic_scholar_crawler
+        python3 main.py
+        cd ./results
+        git init
+        git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git add *.json
+        git commit -m "Updated Semantic Scholar citation data"
+        git push "${remote_repo}" HEAD:semantic-scholar-stats --force
+      env:
+        SEMANTIC_SCHOLAR_AUTHOR_ID: ${{ vars.SEMANTIC_SCHOLAR_AUTHOR_ID || '2399060433' }}
+        SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}

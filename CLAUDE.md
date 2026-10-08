@@ -53,3 +53,38 @@ bundle exec jekyll serve   # then open http://localhost:4000
 ```
 
 Click the **中 / EN** button and confirm BOTH languages look right before committing.
+
+## Citation counts (Semantic Scholar)
+
+Per-paper citation counts in the Publications list, plus a total + h-index line
+under the heading, come from the **Semantic Scholar Graph API**.
+
+| Piece | Where |
+|---|---|
+| Crawler (one API call, retries on 429) | `semantic_scholar_crawler/main.py` |
+| Daily job, force-pushes to the `semantic-scholar-stats` branch | `.github/workflows/semantic_scholar_crawler.yaml` |
+| Page-side fetch + DOM fill | `_includes/fetch_semantic_scholar_stats.html` (loaded via `_includes/scripts.html`) |
+| Markers in the page | `_pages/about.md` — `#s2_total_cit_wrapper` and one `<span class='show_s2_citations' data='<arxiv-id>'>` per paper |
+
+**Adding a paper:** put the usual `arxiv.org/abs/<id>` Paper badge on the badge
+line and append `<span class='show_s2_citations' data='<id>'></span>`. Nothing
+else to configure — the crawler scrapes the arXiv ids out of the Publications
+section of `about.md`, so a paper that isn't on the Semantic Scholar author
+profile (co-author disambiguation slips happen) still gets looked up directly.
+
+Notes:
+- The author id lives in the workflow (`SEMANTIC_SCHOLAR_AUTHOR_ID`, currently
+  `2399060433`); override it with a repo variable of the same name. An optional
+  `SEMANTIC_SCHOLAR_API_KEY` secret raises the rate limit but isn't needed.
+- Papers with 0 citations show nothing, and if the branch or the fetch is
+  missing the page just renders without citations — no broken text.
+- Numbers lag reality: the job runs daily at 08:30 UTC and jsDelivr caches a
+  branch path for up to ~12h. Run the workflow manually from the Actions tab to
+  refresh sooner.
+- Google Scholar numbers are *also* already being collected
+  (`google_scholar_crawler`, `google-scholar-stats` branch,
+  `_includes/fetch_google_scholar_stats.html`) but nothing in the page
+  currently displays them. That include looks for `#total_cit` and
+  `.show_paper_citations` with Google Scholar `author_pub_id` values.
+- Run the crawler locally with:
+  `cd semantic_scholar_crawler && SEMANTIC_SCHOLAR_AUTHOR_ID=2399060433 python main.py`
