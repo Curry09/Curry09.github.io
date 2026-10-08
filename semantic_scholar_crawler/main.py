@@ -83,8 +83,10 @@ def entry(paper):
     }
 
 
-def shields(label, message):
-    return {'schemaVersion': 1, 'label': label, 'message': str(message), 'color': 'fff'}
+def shields(label, message, **extra):
+    badge = {'schemaVersion': 1, 'label': label, 'message': str(message), 'color': 'fff'}
+    badge.update(extra)
+    return badge
 
 
 def main():
@@ -141,9 +143,13 @@ def main():
     with open('results/s2_data.json', 'w', encoding='utf-8') as handle:
         json.dump(out, handle, ensure_ascii=False, indent=1)
 
-    # shields.io endpoint badges, in case we ever want badges instead of text.
+    # The summary badge sits next to Total GitHub Stars at the top of the page,
+    # so it is weighted like that one (coloured fill, white logo) rather than
+    # like the flat white per-paper badges in the Publications list.
     with open('results/s2_data_shieldsio.json', 'w', encoding='utf-8') as handle:
-        json.dump(shields('citations', total), handle, ensure_ascii=False)
+        json.dump(shields('Total Citations', total, color='1857b6',
+                          namedLogo='semanticscholar', logoColor='white'),
+                  handle, ensure_ascii=False)
     for arxiv_id, paper in papers.items():
         name = f'results/s2_{arxiv_id}_shieldsio.json'
         with open(name, 'w', encoding='utf-8') as handle:

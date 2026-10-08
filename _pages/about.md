@@ -21,7 +21,7 @@ redirect_from:
 
 <span class="lang-en">You can find my publications on <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a>. Feel free to reach out to me at <a href='mailto:1187524561@qq.com'>1187524561@qq.com</a>.</span><span class="lang-zh">你可以在 <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a> 上查看我的论文。欢迎通过邮箱 <a href='mailto:1187524561@qq.com'>1187524561@qq.com</a> 与我联系。</span>
 
-[![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09) [![1st Prize · Tencent Competition Domestic Finals](https://img.shields.io/badge/%F0%9F%8F%86_1st_Prize-Tencent_Competition_Domestic_Finals-gold)](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)
+[![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09) [![Total Citations](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fsemantic-scholar-stats%2Fs2_data_shieldsio.json)](https://www.semanticscholar.org/author/2399060433) [![1st Prize · Tencent Competition Domestic Finals](https://img.shields.io/badge/%F0%9F%8F%86_1st_Prize-Tencent_Competition_Domestic_Finals-gold)](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)
 
 # 🔥 <span class="lang-en">News</span><span class="lang-zh">最新动态</span> {#news}
 - *2026.09*: <span class="lang-en">🎉🎉 **Atria Dawn Preview**, our agentic foundation model for scientific research and engineering workflows, is released on [arXiv](https://arxiv.org/abs/2609.15818)!</span><span class="lang-zh">🎉🎉 **Atria Dawn Preview**——我们面向科研与工程工作流的智能体基础模型，已在 [arXiv](https://arxiv.org/abs/2609.15818) 发布！</span>
@@ -38,38 +38,6 @@ redirect_from:
 
 # 📝 <span class="lang-en">Publications</span><span class="lang-zh">论文发表</span> {#publications}
 
-<p id="s2_total_cit_wrapper" style="display: none; margin-top: -0.5em;"><span id="s2_total_cit"></span> <span id="s2_h_index"></span></p>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/evoin.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-### EvoIn: Bridging Evolution and Internalization for Agent Fine-Tuning
-
-Shihan Dou\*, Shaofan Liu\*, Zhonghang Lu\*, **Jiahang Lin**, Shichun Liu, Binghai Wang, Jiajie Jin, Guanting Dong, Tao Gui<small>†</small>, Qi Zhang, Xuanjing Huang
-
-- <span class="lang-en">EvoIn is an agent fine-tuning framework that bridges evolution and internalization: it analyzes execution traces to evolve and validate new decision-making procedures by temporarily instantiating them in the harness, then rewrites the resulting traces into self-contained reasoning so the procedures persist without the evolved harness at inference time.</span><span class="lang-zh">EvoIn 是一个打通「演化」与「内化」的智能体微调框架：先分析执行轨迹，通过把新的决策流程临时注入 harness 来演化并验证它们，再把由此得到的轨迹改写为自包含的推理，使这些流程在推理时脱离演化后的 harness 依然保留。</span>
-- <span class="lang-en">Fine-tuning on the rewritten traces improves performance by 10.9 points in-domain and 9.2 points out-of-domain, and the internalized procedures generalize to unseen tasks — agents learn, for example, to adapt their verification effort to task complexity.</span><span class="lang-zh">在改写后的轨迹上微调带来域内 10.9 分、域外 9.2 分的提升，且内化后的决策流程可泛化到未见任务——例如智能体会学到按任务复杂度调整验证力度。</span>
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2609.35290) <span class='show_s2_citations' data='2609.35290'></span>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/atria-dawn.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-### Atria Dawn: The Dawn of Agentic Superintelligence
-
-Honglin Guo, Tao Gui<small>†</small>, …, **Jiahang Lin**<small> (core contributor)</small>, …, Xuanjing Huang, Yu-Gang Jiang, Bowen Zhou<small>†</small>
-
-- <span class="lang-en">Atria Dawn Preview is a foundation agentic language model for scientific research and engineering workflows, trained via a Verifiable Experience Pipeline that connects tool-mediated interactions to executable environments and externally verified outcomes.</span><span class="lang-zh">Atria Dawn Preview 是一个面向科研与工程工作流的智能体基础模型，通过 Verifiable Experience Pipeline 训练——该流水线把工具交互接入可执行环境，并以外部可验证的结果作为监督信号。</span>
-- <span class="lang-en">Across 16 benchmarks spanning real-world research, engineering, and digital work, it is competitive with frontier agents and achieves the highest reported score on five of them. The paper also studies the human–AI collaboration behind the model itself, from 769 task records across 56 participants.</span><span class="lang-zh">在覆盖真实科研、工程与数字工作的 16 个基准上，它与前沿智能体相当，并在其中 5 个上取得已报告的最高分。论文还以该模型自身的研发过程为案例，基于 56 位参与者的 769 条任务记录分析了人机协作模式。</span>
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2609.15818) <span class='show_s2_citations' data='2609.15818'></span>
-
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/agentic-harness-engineering-training-curve.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -80,36 +48,6 @@ Honglin Guo, Tao Gui<small>†</small>, …, **Jiahang Lin**<small> (core contri
 - <span class="lang-en">AHE is an observability stack for the automatic optimization of coding-agent harnesses, with three pillars: component observability (NexAU), experience observability (Agent Debugger), and decision observability (evidence-driven Evolve Agent).</span><span class="lang-zh">AHE 是一套用于自动优化编码智能体 harness 的可观测性体系，包含三大支柱：组件可观测性（NexAU）、经验可观测性（Agent Debugger）以及决策可观测性（基于证据的 Evolve Agent）。</span>
 - <span class="lang-en">Without changing the model, AHE pushes Terminal-bench 2 from 69.7% to 77.0% across iterations, with strong cross-task and cross-model generalization.</span><span class="lang-zh">在不改动模型的前提下，AHE 通过多轮迭代将 Terminal-bench 2 从 69.7% 提升至 77.0%，并展现出强的跨任务、跨模型泛化能力。</span>
 - [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.25850) \| [![](https://img.shields.io/badge/Blog-fff)](https://dawning-road.github.io/blog/agentic-harness-engineering) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/china-qijizhifeng/agentic-harness-engineering) \| [![](https://img.shields.io/github/stars/china-qijizhifeng/agentic-harness-engineering?style=social)](https://github.com/china-qijizhifeng/agentic-harness-engineering) <span class='show_s2_citations' data='2604.25850'></span>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/evpo-overview.webp' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-### EVPO: Explained Variance Policy Optimization for Adaptive Critic Utilization in LLM Post-Training
-
-Chengjun Pan\*, Shichun Liu\*, **Jiahang Lin**\*, Dingwei Zhu, Jiazheng Zhang, Shihan Dou, Songyang Gao, Zhenhua Han, Binghai Wang, Rui Zheng, Xuanjing Huang<small>†</small>, Tao Gui<small>†</small>, Yansong Feng<small>†</small>
-
-- <span class="lang-en">We cast baseline selection in LLM post-training as a Kalman filtering problem, unifying PPO and GRPO as two extremes of the Kalman gain, and prove that the sign of explained variance (EV) is the exact boundary separating the variance-reducing from the variance-inflating critic regime.</span><span class="lang-zh">我们将大模型后训练中的 baseline 选择建模为卡尔曼滤波问题，把 PPO 与 GRPO 统一为卡尔曼增益的两个极端，并证明 explained variance（EV）的符号正是区分「降方差」与「增方差」critic 区间的精确边界。</span>
-- <span class="lang-en">EVPO adaptively switches between critic-based and batch-mean advantage estimation per step based on EV sign, achieving the best results across Sokoban, FrozenLake, WebShop, and MATH.</span><span class="lang-zh">EVPO 依据每一步的 EV 符号，在基于 critic 与基于 batch 均值的优势估计之间自适应切换，在 Sokoban、FrozenLake、WebShop 与 MATH 上均取得最佳结果。</span>
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.19485) \| [![](https://img.shields.io/badge/Blog-fff)](https://dawning-road.github.io/blog/evpo) <span class='show_s2_citations' data='2604.19485'></span>
-
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/mm-doc-r1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-### MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning
-
-**Jiahang Lin**\*, Kai Hu\*, Binghai Wang, Yuhao Zhou, Zhiheng Xi, Honglin Guo, Shichun Liu, Junzhe Wang, Shihan Dou, Enyu Zhou, Hang Yan, Zhenhua Han, Tao Gui<small>†</small>, Qi Zhang<small>†</small>, Xuanjing Huang<small>†</small>
-
-- <span class="lang-en">Conventional RAG systems struggle with complex multi-hop queries over long documents due to their single-pass retrieval. MM-Doc-R1 trains agents for long-document visual question answering via multi-turn reinforcement learning.</span><span class="lang-zh">传统 RAG 系统受限于单次检索，难以应对长文档上的复杂多跳查询。MM-Doc-R1 通过多轮强化学习训练面向长文档视觉问答的智能体。</span>
-- <span class="lang-en">The agent learns to interleave retrieval and reasoning across many turns, achieving substantial gains on long-document VQA benchmarks compared to single-pass and prompt-only baselines.</span><span class="lang-zh">该智能体学会在多轮之间交替进行检索与推理，相比单次检索与仅提示（prompt-only）基线，在长文档 VQA 基准上取得显著提升。</span>
-- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.13579) <span class='show_s2_citations' data='2604.13579'></span>
 
 </div>
 </div>
@@ -140,6 +78,66 @@ Nex-AGI Team: Yuxuan Cai, Lu Chen, …, **Jiahang Lin**, …, Xuanjing Huang, Xi
 - <span class="lang-en">We introduce a comprehensive method designed to systematically scale the diversity and complexity of interactive environments through three orthogonal dimensions: Complexity (NexAU), Diversity (NexA4A), and Fidelity (NexGAP).</span><span class="lang-zh">我们提出一套系统性方法，从三个正交维度规模化提升交互环境的多样性与复杂度：复杂度（NexAU）、多样性（NexA4A）与保真度（NexGAP）。</span>
 - <span class="lang-en">Nex-N1 consistently outperforms SOTA open-source models and achieves competitive performance against frontier proprietary models on complex agentic tasks (SWE-bench, tau2).</span><span class="lang-zh">在复杂智能体任务（SWE-bench、tau2）上，Nex-N1 持续超越 SOTA 开源模型，并在与前沿闭源模型的对比中展现出有竞争力的表现。</span>
 - [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2512.04987) \| [![](https://img.shields.io/github/stars/nex-agi/Nex-N1?style=social)](https://github.com/nex-agi/Nex-N1) <span class='show_s2_citations' data='2512.04987'></span>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/mm-doc-r1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning
+
+**Jiahang Lin**\*, Kai Hu\*, Binghai Wang, Yuhao Zhou, Zhiheng Xi, Honglin Guo, Shichun Liu, Junzhe Wang, Shihan Dou, Enyu Zhou, Hang Yan, Zhenhua Han, Tao Gui<small>†</small>, Qi Zhang<small>†</small>, Xuanjing Huang<small>†</small>
+
+- <span class="lang-en">Conventional RAG systems struggle with complex multi-hop queries over long documents due to their single-pass retrieval. MM-Doc-R1 trains agents for long-document visual question answering via multi-turn reinforcement learning.</span><span class="lang-zh">传统 RAG 系统受限于单次检索，难以应对长文档上的复杂多跳查询。MM-Doc-R1 通过多轮强化学习训练面向长文档视觉问答的智能体。</span>
+- <span class="lang-en">The agent learns to interleave retrieval and reasoning across many turns, achieving substantial gains on long-document VQA benchmarks compared to single-pass and prompt-only baselines.</span><span class="lang-zh">该智能体学会在多轮之间交替进行检索与推理，相比单次检索与仅提示（prompt-only）基线，在长文档 VQA 基准上取得显著提升。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.13579) <span class='show_s2_citations' data='2604.13579'></span>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/evpo-overview.webp' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### EVPO: Explained Variance Policy Optimization for Adaptive Critic Utilization in LLM Post-Training
+
+Chengjun Pan\*, Shichun Liu\*, **Jiahang Lin**\*, Dingwei Zhu, Jiazheng Zhang, Shihan Dou, Songyang Gao, Zhenhua Han, Binghai Wang, Rui Zheng, Xuanjing Huang<small>†</small>, Tao Gui<small>†</small>, Yansong Feng<small>†</small>
+
+- <span class="lang-en">We cast baseline selection in LLM post-training as a Kalman filtering problem, unifying PPO and GRPO as two extremes of the Kalman gain, and prove that the sign of explained variance (EV) is the exact boundary separating the variance-reducing from the variance-inflating critic regime.</span><span class="lang-zh">我们将大模型后训练中的 baseline 选择建模为卡尔曼滤波问题，把 PPO 与 GRPO 统一为卡尔曼增益的两个极端，并证明 explained variance（EV）的符号正是区分「降方差」与「增方差」critic 区间的精确边界。</span>
+- <span class="lang-en">EVPO adaptively switches between critic-based and batch-mean advantage estimation per step based on EV sign, achieving the best results across Sokoban, FrozenLake, WebShop, and MATH.</span><span class="lang-zh">EVPO 依据每一步的 EV 符号，在基于 critic 与基于 batch 均值的优势估计之间自适应切换，在 Sokoban、FrozenLake、WebShop 与 MATH 上均取得最佳结果。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2604.19485) \| [![](https://img.shields.io/badge/Blog-fff)](https://dawning-road.github.io/blog/evpo) <span class='show_s2_citations' data='2604.19485'></span>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/evoin.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### EvoIn: Bridging Evolution and Internalization for Agent Fine-Tuning
+
+Shihan Dou\*, Shaofan Liu\*, Zhonghang Lu\*, **Jiahang Lin**, Shichun Liu, Binghai Wang, Jiajie Jin, Guanting Dong, Tao Gui<small>†</small>, Qi Zhang, Xuanjing Huang
+
+- <span class="lang-en">EvoIn is an agent fine-tuning framework that bridges evolution and internalization: it analyzes execution traces to evolve and validate new decision-making procedures by temporarily instantiating them in the harness, then rewrites the resulting traces into self-contained reasoning so the procedures persist without the evolved harness at inference time.</span><span class="lang-zh">EvoIn 是一个打通「演化」与「内化」的智能体微调框架：先分析执行轨迹，通过把新的决策流程临时注入 harness 来演化并验证它们，再把由此得到的轨迹改写为自包含的推理，使这些流程在推理时脱离演化后的 harness 依然保留。</span>
+- <span class="lang-en">Fine-tuning on the rewritten traces improves performance by 10.9 points in-domain and 9.2 points out-of-domain, and the internalized procedures generalize to unseen tasks — agents learn, for example, to adapt their verification effort to task complexity.</span><span class="lang-zh">在改写后的轨迹上微调带来域内 10.9 分、域外 9.2 分的提升，且内化后的决策流程可泛化到未见任务——例如智能体会学到按任务复杂度调整验证力度。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2609.35290) <span class='show_s2_citations' data='2609.35290'></span>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/atria-dawn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### Atria Dawn: The Dawn of Agentic Superintelligence
+
+Honglin Guo, Tao Gui<small>†</small>, …, **Jiahang Lin**<small> (core contributor)</small>, …, Xuanjing Huang, Yu-Gang Jiang, Bowen Zhou<small>†</small>
+
+- <span class="lang-en">Atria Dawn Preview is a foundation agentic language model for scientific research and engineering workflows, trained via a Verifiable Experience Pipeline that connects tool-mediated interactions to executable environments and externally verified outcomes.</span><span class="lang-zh">Atria Dawn Preview 是一个面向科研与工程工作流的智能体基础模型，通过 Verifiable Experience Pipeline 训练——该流水线把工具交互接入可执行环境，并以外部可验证的结果作为监督信号。</span>
+- <span class="lang-en">Across 16 benchmarks spanning real-world research, engineering, and digital work, it is competitive with frontier agents and achieves the highest reported score on five of them. The paper also studies the human–AI collaboration behind the model itself, from 769 task records across 56 participants.</span><span class="lang-zh">在覆盖真实科研、工程与数字工作的 16 个基准上，它与前沿智能体相当，并在其中 5 个上取得已报告的最高分。论文还以该模型自身的研发过程为案例，基于 56 位参与者的 769 条任务记录分析了人机协作模式。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2609.15818) <span class='show_s2_citations' data='2609.15818'></span>
 
 </div>
 </div>

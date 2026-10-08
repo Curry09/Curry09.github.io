@@ -56,24 +56,41 @@ Click the **中 / EN** button and confirm BOTH languages look right before commi
 
 ## Citation counts (Semantic Scholar)
 
-Per-paper citation counts in the Publications list, plus a total + h-index line
-under the heading, come from the **Semantic Scholar Graph API**. They render as
-shields.io badges with the Semantic Scholar logo (`logo=semanticscholar`,
-`-fff?logoColor=000`), matching the hand-written Paper/Code/Dataset badges.
+Citation counts come from the **Semantic Scholar Graph API**, in two places:
+
+- **Per paper**, at the end of each publication's badge row — a shields.io
+  badge with the Semantic Scholar logo (`logo=semanticscholar`,
+  `-fff?logoColor=000`), matching the hand-written Paper/Code/Dataset badges.
+  Built client-side from the fetched count.
+- **A Total Citations badge** in the badge row near the top of `about.md`,
+  beside Total GitHub Stars and styled to match it (coloured fill, white logo).
+  This one is a shields.io *endpoint* badge reading
+  `s2_data_shieldsio.json` straight off the data branch, so it needs no JS.
+  It points at `raw.githubusercontent.com` like the stars badge does — fine
+  there because shields.io fetches it server-side, not the visitor's browser.
 
 > shields.io treats `-` and `_` as separators inside a `/badge/` path segment,
 > so `s2Badge()` doubles them. An unescaped `h-index` renders a *"404 badge not
 > found"* image, which is easy to miss.
+
+**Publications are ordered by citation count, descending** — not
+reverse-chronologically. `about.md` is kept in that order so the first paint is
+already right, and `s2SortPapers()` re-sorts on load so the order stays correct
+as counts drift. A paper Semantic Scholar has no data for sorts last rather than
+tying with a genuine 0. The sort moves `.paper-box` nodes between placeholder
+slots rather than re-appending them to the parent, which would drop them past
+the Honors and Education sections.
 
 | Piece | Where |
 |---|---|
 | Crawler (one API call, retries on 429) | `semantic_scholar_crawler/main.py` |
 | Daily job, force-pushes to the `semantic-scholar-stats` branch | `.github/workflows/semantic_scholar_crawler.yaml` |
 | Page-side fetch + DOM fill | `_includes/fetch_semantic_scholar_stats.html` (loaded via `_includes/scripts.html`) |
-| Markers in the page | `_pages/about.md` — `#s2_total_cit_wrapper` and one `<span class='show_s2_citations' data='<arxiv-id>'>` per paper |
+| Markers in the page | `_pages/about.md` — one `<span class='show_s2_citations' data='<arxiv-id>'>` per paper; also the sort key and the id the badge links by |
 
 **Adding a paper:** put the usual `arxiv.org/abs/<id>` Paper badge on the badge
-line and append `<span class='show_s2_citations' data='<id>'></span>`. Nothing
+line and append `<span class='show_s2_citations' data='<id>'></span>`, and drop
+the block in at its place in the citation ordering. Nothing
 else to configure — the crawler scrapes the arXiv ids out of the Publications
 section of `about.md`, so a paper that isn't on the Semantic Scholar author
 profile (co-author disambiguation slips happen) still gets looked up directly.

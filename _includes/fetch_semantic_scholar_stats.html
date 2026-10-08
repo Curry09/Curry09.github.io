@@ -3,7 +3,9 @@
         {% comment %}
         jsDelivr unless citation_stats_use_cdn is explicitly false --
         raw.githubusercontent.com is unreachable from mainland China, so a
-        missing key must not silently fall back to it.
+        missing key must not silently fall back to it. (The Total Citations
+        badge at the top of the page reads the raw URL instead, but that one is
+        fetched by shields.io server-side, not by the visitor.)
         {% endcomment %}
         {% if site.citation_stats_use_cdn == false %}
         var s2DataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
@@ -11,14 +13,14 @@
         var s2DataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
         {% endif %}
 
-        // Same shape as the hand-written Paper/Code/Dataset badges in about.md,
-        // so a citation count sits in the badge row without looking bolted on.
         // shields.io reads - _ as separators inside a /badge/ path segment, so a
         // literal one has to be doubled. Unescaped "h-index" renders a 404 badge.
         function s2Esc(text) {
             return encodeURIComponent(String(text).replace(/-/g, '--').replace(/_/g, '__'))
         }
 
+        // Same shape as the hand-written Paper/Code/Dataset badges in about.md,
+        // so a citation count sits in the badge row without looking bolted on.
         function s2Badge(label, value, alt, href) {
             var url = 'https://img.shields.io/badge/' + s2Esc(label) + '-'
                     + s2Esc(value) + '-fff?logo=semanticscholar&logoColor=000'
@@ -27,26 +29,39 @@
             return '<a href="' + href + '" target="_blank" rel="noopener" title="' + alt + '">' + img + '</a>'
         }
 
-        $.getJSON(s2DataBaseUrl + "semantic-scholar-stats/s2_data.json", function (data) {
-            var authorUrl = data['author_id']
-                ? 'https://www.semanticscholar.org/author/' + data['author_id']
-                : null
+        function s2Count(box, data) {
+            var span = box.getElementsByClassName('show_s2_citations')[0]
+            var paper = span && data['publications'][span.getAttribute('data')]
+            // No data at all sorts last rather than tying with a genuine 0.
+            return paper ? paper['citationCount'] : -1
+        }
 
-            var wrapper = document.getElementById('s2_total_cit_wrapper')
-            var shown = false
-            var totalEle = document.getElementById('s2_total_cit')
-            if (totalEle && data['citedby'] != null) {
-                totalEle.innerHTML = s2Badge('Citations', data['citedby'],
-                    'Total citations on Semantic Scholar', authorUrl)
-                shown = true
-            }
-            var hIndexEle = document.getElementById('s2_h_index')
-            if (hIndexEle && data['h_index'] != null) {
-                hIndexEle.innerHTML = s2Badge('h-index', data['h_index'],
-                    'h-index on Semantic Scholar', authorUrl)
-                shown = true
-            }
-            if (wrapper && shown) { wrapper.style.display = '' }
+        // about.md is kept in citation order already, so this is normally a
+        // no-op and the page does not visibly reshuffle on load. It is what
+        // keeps the order right as the counts drift.
+        function s2SortPapers(data) {
+            var boxes = Array.prototype.slice.call(document.getElementsByClassName('paper-box'))
+            if (boxes.length < 2) { return }
+            var counts = boxes.map(function (box) { return s2Count(box, data) })
+
+            // Placeholders hold each slot so the boxes only move among
+            // themselves -- re-appending to the parent would drop them past the
+            // Honors and Education sections.
+            var slots = boxes.map(function (box) {
+                var slot = document.createElement('div')
+                box.parentNode.insertBefore(slot, box)
+                return slot
+            })
+
+            var order = boxes.map(function (box, i) { return i })
+            order.sort(function (a, b) { return counts[b] - counts[a] || a - b })
+            order.forEach(function (from, to) {
+                slots[to].parentNode.replaceChild(boxes[from], slots[to])
+            })
+        }
+
+        $.getJSON(s2DataBaseUrl + "semantic-scholar-stats/s2_data.json", function (data) {
+            if (!data || !data['publications']) { return }
 
             var citationEles = document.getElementsByClassName('show_s2_citations')
             Array.prototype.forEach.call(citationEles, function (element) {
@@ -57,6 +72,8 @@
                 element.innerHTML = '| ' + s2Badge('Citations', paper['citationCount'],
                     alt, paper['url'])
             })
+
+            s2SortPapers(data)
         });
     })
 </script>
