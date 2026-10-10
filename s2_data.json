@@ -1,0 +1,133 @@
+{
+ "source": "Semantic Scholar Graph API",
+ "author_id": "2399060433",
+ "name": "Jia-Hang Lin",
+ "citedby": 447,
+ "h_index": 6,
+ "paper_count": 12,
+ "updated": "2026-10-10T14:35:30+00:00",
+ "publications": {
+  "2609.35290": {
+   "paperId": "018baad1bd6d41d8ccb19e6d2ff77c00313d3cf9",
+   "title": "EvoIn: Bridging Evolution and Internalization for Agent Fine-Tuning",
+   "year": 2026,
+   "citationCount": 0,
+   "influentialCitationCount": 0,
+   "arxivId": "2609.35290",
+   "doi": null,
+   "url": "https://www.semanticscholar.org/paper/018baad1bd6d41d8ccb19e6d2ff77c00313d3cf9"
+  },
+  "2604.19485": {
+   "paperId": "1e66062a45141f3154f9907ebb8024418f51b2e9",
+   "title": "EVPO: Explained Variance Policy Optimization for Adaptive Critic Utilization in LLM Post-Training",
+   "year": 2026,
+   "citationCount": 6,
+   "influentialCitationCount": 1,
+   "arxivId": "2604.19485",
+   "doi": "10.48550/arXiv.2604.19485",
+   "url": "https://www.semanticscholar.org/paper/1e66062a45141f3154f9907ebb8024418f51b2e9"
+  },
+  "2608.02110": {
+   "paperId": "2897abb396eae57f4935d110e050e5a7784ba397",
+   "title": "IACM-RL: Intent-Aware Context Management and Reinforcement Learning for Complex Tool Invocation under Dynamic Intent Fluctuations",
+   "year": 2026,
+   "citationCount": 0,
+   "influentialCitationCount": 0,
+   "arxivId": "2608.02110",
+   "doi": null,
+   "url": "https://www.semanticscholar.org/paper/2897abb396eae57f4935d110e050e5a7784ba397"
+  },
+  "2604.25850": {
+   "paperId": "40dd05a8a95d0dd76ecdf43b5e66b92f6e315871",
+   "title": "Agentic Harness Engineering: Observability-Driven Automatic Evolution of Coding-Agent Harnesses",
+   "year": 2026,
+   "citationCount": 123,
+   "influentialCitationCount": 23,
+   "arxivId": "2604.25850",
+   "doi": "10.48550/arXiv.2604.25850",
+   "url": "https://www.semanticscholar.org/paper/40dd05a8a95d0dd76ecdf43b5e66b92f6e315871"
+  },
+  "2608.30478": {
+   "paperId": "9a6a89252ad6e347eed939251305840c68336952",
+   "title": "Agents in the Large: Perception-Centered Architecture for Persistent Agents",
+   "year": 2026,
+   "citationCount": 1,
+   "influentialCitationCount": 0,
+   "arxivId": "2608.30478",
+   "doi": null,
+   "url": "https://www.semanticscholar.org/paper/9a6a89252ad6e347eed939251305840c68336952"
+  },
+  "2604.27043": {
+   "paperId": "9c0b2895fdc627bd4ac387d72d8c5083ef4a686e",
+   "title": "CL-bench Life: Can Language Models Learn from Real-Life Context?",
+   "year": 2026,
+   "citationCount": 8,
+   "influentialCitationCount": 0,
+   "arxivId": "2604.27043",
+   "doi": "10.48550/arXiv.2604.27043",
+   "url": "https://www.semanticscholar.org/paper/9c0b2895fdc627bd4ac387d72d8c5083ef4a686e"
+  },
+  "2609.15818": {
+   "paperId": "9f31c6f4a88971fabddd3536bf8589b19b8cd837",
+   "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
+   "year": 2026,
+   "citationCount": 0,
+   "influentialCitationCount": 0,
+   "arxivId": "2609.15818",
+   "doi": null,
+   "url": "https://www.semanticscholar.org/paper/9f31c6f4a88971fabddd3536bf8589b19b8cd837"
+  },
+  "2604.13579": {
+   "paperId": "b91b3ac039cd7a9eee7c25b7467577a3a1a343c8",
+   "title": "MM-Doc-R1: Training Agents for Long Document Visual Question Answering through Multi-turn Reinforcement Learning",
+   "year": 2026,
+   "citationCount": 8,
+   "influentialCitationCount": 1,
+   "arxivId": "2604.13579",
+   "doi": "10.48550/arXiv.2604.13579",
+   "url": "https://www.semanticscholar.org/paper/b91b3ac039cd7a9eee7c25b7467577a3a1a343c8"
+  },
+  "2601.10343": {
+   "paperId": "e1d4f8611a77621aa7c6a40ff097025eac28c174",
+   "title": "OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding",
+   "year": 2026,
+   "citationCount": 17,
+   "influentialCitationCount": 1,
+   "arxivId": "2601.10343",
+   "doi": "10.48550/arXiv.2601.10343",
+   "url": "https://www.semanticscholar.org/paper/e1d4f8611a77621aa7c6a40ff097025eac28c174"
+  },
+  "2512.13564": {
+   "paperId": "d362b7619fcd2df4241696a19aec95961b8a729c",
+   "title": "Memory in the Age of AI Agents",
+   "year": 2025,
+   "citationCount": 288,
+   "influentialCitationCount": 22,
+   "arxivId": "2512.13564",
+   "doi": "10.48550/arXiv.2512.13564",
+   "url": "https://www.semanticscholar.org/paper/d362b7619fcd2df4241696a19aec95961b8a729c"
+  },
+  "2512.04987": {
+   "paperId": "e5d9d00f4902e2ed86b83e9d4656c3978724ffd2",
+   "title": "Nex-N1: Agentic Models Trained via a Unified Ecosystem for Large-Scale Environment Construction",
+   "year": 2025,
+   "citationCount": 16,
+   "influentialCitationCount": 2,
+   "arxivId": "2512.04987",
+   "doi": "10.48550/arXiv.2512.04987",
+   "url": "https://www.semanticscholar.org/paper/e5d9d00f4902e2ed86b83e9d4656c3978724ffd2"
+  }
+ },
+ "publications_without_arxiv_id": [
+  {
+   "paperId": "5ecd4e1efa1db141aa9b042ded0ef0952f748dc9",
+   "title": "WindArms: More Efficient DGF Coverage-Guided Tracing",
+   "year": 2022,
+   "citationCount": 0,
+   "influentialCitationCount": 0,
+   "arxivId": null,
+   "doi": "10.1109/ICCT56141.2022.10073335",
+   "url": "https://www.semanticscholar.org/paper/5ecd4e1efa1db141aa9b042ded0ef0952f748dc9"
+  }
+ ]
+}
