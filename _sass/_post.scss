@@ -143,3 +143,21 @@
   color: #555;
   font-size: .95em;
 }
+
+.post__content table {
+  display: table;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+  font-size: .9em;
+
+  th, td {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    padding: .45em .6em;
+    text-align: center;
+  }
+  th:first-child, td:first-child { text-align: left; }
+  thead th { border-bottom: 2px solid #999; background: none; }
+  tbody tr:first-child td { border-bottom: 1px solid #ccc; }
+}
