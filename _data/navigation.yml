@@ -24,3 +24,7 @@ main:
   - title: "Education"
     title_zh: "教育经历"
     url: "/#education"
+
+  - title: "Blog"
+    title_zh: "博客"
+    url: "/blog.html"
