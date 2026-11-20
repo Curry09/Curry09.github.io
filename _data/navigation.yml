@@ -1,6 +1,10 @@
 # main links
 # title    = English label, title_zh = Chinese label (both shown via the language switch)
 main:
+  - title: "Blog"
+    title_zh: "博客"
+    url: "/blog/"
+
   - title: "About Me"
     title_zh: "关于我"
     url: "/#about-me"
@@ -24,7 +28,3 @@ main:
   - title: "Education"
     title_zh: "教育经历"
     url: "/#education"
-
-  - title: "Blog"
-    title_zh: "博客"
-    url: "/blog.html"
