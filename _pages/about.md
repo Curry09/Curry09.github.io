@@ -17,13 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<span class="lang-en">I am a master's student at FudanNLP Lab, Fudan University, co-advised by Associate Prof. [Tao Gui (桂 韬)](https://guitaowufeng.github.io/) and Prof. [Xuanjing Huang (黄萱菁)](https://xuanjing-huang.github.io/). My research focuses on **self-evolving agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT, RL, and Harness Engineering. I am currently a Research Intern at **Shanghai AI Laboratory**, where I am **Tech Lead for ML coding** on [Atria Dawn Preview](https://arxiv.org/abs/2609.15818) and [Sage-S2.1 Flash](https://arxiv.org/abs/2611.21072v2). I previously interned at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.) and at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2025.</span><span class="lang-zh">我是复旦大学 FudanNLP 实验室的硕士研究生，师从[桂韬](https://guitaowufeng.github.io/)副教授与[黄萱菁](https://xuanjing-huang.github.io/)教授。我的研究方向为**自进化智能体（self-evolving agents）**与**强化学习**。我在智能体后训练全链路上拥有端到端经验——SFT、RL 以及 Harness 工程。我目前在**上海人工智能实验室**担任研究实习生，是 [Atria Dawn Preview](https://arxiv.org/abs/2609.15818) 与 [Sage-S2.1 Flash](https://arxiv.org/abs/2611.21072v2) 的 **ML coding 方向 Tech Lead**。此前曾在 NEX-AGI（上海奇绩智峰）与华为计算研究部门实习。我于 2025 年在复旦大学获得学士学位。</span>
+<span class="lang-en">I am a master's student at FudanNLP Lab, Fudan University, co-advised by Associate Prof. [Tao Gui (桂 韬)](https://guitaowufeng.github.io/) and Prof. [Xuanjing Huang (黄萱菁)](https://xuanjing-huang.github.io/). My research focuses on **self-evolving agents** and **reinforcement learning**. I have end-to-end experience across the agent post-training stack — SFT, RL, and Harness Engineering. I am currently a Research Intern at **Shanghai AI Laboratory**, where I am **Tech Lead for ML coding** on [Atria Dawn Preview](https://arxiv.org/abs/2609.15818) and [Sage S2.1 Flash](https://arxiv.org/abs/2611.21072v2). I previously interned at NEX-AGI (Shanghai Qiji Zhifeng Co., Ltd.) and at the Computing Research Department of Huawei. I received my B.S. from Fudan University in 2025.</span><span class="lang-zh">我是复旦大学 FudanNLP 实验室的硕士研究生，师从[桂韬](https://guitaowufeng.github.io/)副教授与[黄萱菁](https://xuanjing-huang.github.io/)教授。我的研究方向为**自进化智能体（self-evolving agents）**与**强化学习**。我在智能体后训练全链路上拥有端到端经验——SFT、RL 以及 Harness 工程。我目前在**上海人工智能实验室**担任研究实习生，是 [Atria Dawn Preview](https://arxiv.org/abs/2609.15818) 与 [Sage S2.1 Flash](https://arxiv.org/abs/2611.21072v2) 的 **ML coding 方向 Tech Lead**。此前曾在 NEX-AGI（上海奇绩智峰）与华为计算研究部门实习。我于 2025 年在复旦大学获得学士学位。</span>
 
 <span class="lang-en">You can find my publications on <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a>. Feel free to reach out to me at <a href='mailto:1187524561@qq.com'>1187524561@qq.com</a>.</span><span class="lang-zh">你可以在 <a href='https://scholar.google.com/citations?user=bn6dnQ8AAAAJ'>Google Scholar</a> 上查看我的论文。欢迎通过邮箱 <a href='mailto:1187524561@qq.com'>1187524561@qq.com</a> 与我联系。</span>
 
 [![Total GitHub Stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fstar-badge%2Ftotal-stars.json)](https://github.com/Curry09) [![Total Citations](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCurry09%2FCurry09.github.io%2Fsemantic-scholar-stats%2Fs2_data_shieldsio.json)](https://www.semanticscholar.org/author/2399060433) [![1st Prize · Tencent Competition Domestic Finals](https://img.shields.io/badge/%F0%9F%8F%86_1st_Prize-Tencent_Competition_Domestic_Finals-gold)](https://tencentarena.com/aiarena/zh/match/open-competition-2024?tab=score)
 
 # 🔥 <span class="lang-en">News</span><span class="lang-zh">最新动态</span> {#news}
+- *2026.11*: <span class="lang-en">🎉🎉 **Sage S2.1 Flash**, a 320B mixture-of-experts model that reasons over scientific evidence and acts in interactive environments, is released on [arXiv](https://arxiv.org/abs/2611.21072v2)!</span><span class="lang-zh">🎉🎉 **Sage S2.1 Flash**——一个能基于科学证据推理并在交互环境中行动的 320B 混合专家模型，已在 [arXiv](https://arxiv.org/abs/2611.21072v2) 发布！</span>
+- *2026.11*: <span class="lang-en">🎉🎉 **[AHE-Beta](https://arxiv.org/abs/2611.24924v1)** (requirement-centered evolution of agent harnesses) and **[ARE-bench](https://arxiv.org/abs/2611.14364v1)** (benchmarking agents' research ability in real-world researcher sessions and workspaces) are released on arXiv!</span><span class="lang-zh">🎉🎉 **[AHE-Beta](https://arxiv.org/abs/2611.24924v1)**（以需求为中心的智能体 harness 演化）与 **[ARE-bench](https://arxiv.org/abs/2611.14364v1)**（在真实研究者会话与工作区中评测智能体的科研能力）已在 arXiv 发布！</span>
 - *2026.09*: <span class="lang-en">🎉🎉 **Atria Dawn Preview**, our agentic foundation model for scientific research and engineering workflows, is released on [arXiv](https://arxiv.org/abs/2609.15818)!</span><span class="lang-zh">🎉🎉 **Atria Dawn Preview**——我们面向科研与工程工作流的智能体基础模型，已在 [arXiv](https://arxiv.org/abs/2609.15818) 发布！</span>
 - *2026.05*: <span class="lang-en">🎉🎉 **AHE** (Agentic Harness Engineering) is released on [arXiv](https://arxiv.org/abs/2604.25850)!</span><span class="lang-zh">🎉🎉 **AHE**（Agentic Harness Engineering）已在 [arXiv](https://arxiv.org/abs/2604.25850) 发布！</span>
 - *2026.04*: <span class="lang-en">🎉🎉 **[MM-Doc-R1](https://arxiv.org/abs/2604.13579)** is accepted by **ACL 2026 Findings**!</span><span class="lang-zh">🎉🎉 **[MM-Doc-R1](https://arxiv.org/abs/2604.13579)** 被 **ACL 2026 Findings** 录用！</span>
@@ -31,13 +33,43 @@ redirect_from:
 - *2025.12*: <span class="lang-en">🎉🎉 **Nex-N1**, our agentic model trained via a unified ecosystem for large-scale environment construction, is released on [arXiv](https://arxiv.org/abs/2512.04987)!</span><span class="lang-zh">🎉🎉 **Nex-N1**——我们通过统一生态进行大规模环境构建所训练的智能体模型，已在 [arXiv](https://arxiv.org/abs/2512.04987) 发布！</span>
 
 # 💻 <span class="lang-en">Internships</span><span class="lang-zh">实习经历</span> {#internships}
-- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/shanghai-ai-lab.png" alt="Shanghai AI Laboratory" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;"><span class="lang-en">**2026.7 - Present** · Research Intern, **Shanghai AI Laboratory**, Shanghai</span><span class="lang-zh">**2026.7 - 至今** · 研究实习生，**上海人工智能实验室**，上海</span></span><br><span class="lang-en">*Tech Lead for ML coding on [Atria Dawn Preview](https://arxiv.org/abs/2609.15818) and [Sage-S2.1 Flash](https://arxiv.org/abs/2611.21072v2)*</span><span class="lang-zh">*[Atria Dawn Preview](https://arxiv.org/abs/2609.15818) 与 [Sage-S2.1 Flash](https://arxiv.org/abs/2611.21072v2) 的 ML coding 方向 Tech Lead*</span>
+- <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/shanghai-ai-lab.png" alt="Shanghai AI Laboratory" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;"><span class="lang-en">**2026.7 - Present** · Research Intern, **Shanghai AI Laboratory**, Shanghai</span><span class="lang-zh">**2026.7 - 至今** · 研究实习生，**上海人工智能实验室**，上海</span></span><br><span class="lang-en">*Tech Lead for ML coding on [Atria Dawn Preview](https://arxiv.org/abs/2609.15818) and [Sage S2.1 Flash](https://arxiv.org/abs/2611.21072v2)*</span><span class="lang-zh">*[Atria Dawn Preview](https://arxiv.org/abs/2609.15818) 与 [Sage S2.1 Flash](https://arxiv.org/abs/2611.21072v2) 的 ML coding 方向 Tech Lead*</span>
   - <span class="lang-en">Led training-data production for MLE-Bench, MLS-Bench, PaperBench and PostTrainBench, lifting Atria Dawn Preview's ML coding ability into the first tier.</span><span class="lang-zh">负责 MLE-Bench、MLS-Bench、PaperBench、PostTrainBench 的训练数据生产，支撑 Atria Dawn Preview 的 ML coding 能力达到第一梯队。</span>
 - <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/NEX.svg" alt="NEX-AGI" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;"><span class="lang-en">**2025.3 - 2026.6** · Research Intern, **NEX-AGI** (Shanghai Qiji Zhifeng Co., Ltd.), Shanghai</span><span class="lang-zh">**2025.3 - 2026.6** · 研究实习生，**NEX-AGI**（上海奇绩智峰），上海</span></span><br><span class="lang-en">*Self-evolving agents & reinforcement learning for coding and search agents*</span><span class="lang-zh">*面向代码与搜索智能体的自进化智能体与强化学习*</span>
 - <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/huawei.svg" alt="Huawei" style="max-width: 160px; max-height: 50px;"></span><span style="display: inline-block; vertical-align: middle;"><span class="lang-en">**2024.7 - 2024.9** · Research Intern, **Huawei** Computing Product Line, Computing Research Department</span><span class="lang-zh">**2024.7 - 2024.9** · 研究实习生，**华为** 计算产品线 计算研究部</span></span><br><span class="lang-en">*Fine-tuning long-context LLMs on Ascend 910B*</span><span class="lang-zh">*在昇腾 910B 上微调长上下文大模型*</span>
 - <span style="display: inline-flex; align-items: center; justify-content: center; width: 160px; height: 75px; vertical-align: middle; margin-right: 10px;"><img src="../images/fudannlp.png" alt="FudanNLP" style="max-width: 160px; max-height: 50px;"></span><br><span style="display: inline-block; vertical-align: middle;"><span class="lang-en">**2024.4 - 2024.7** · Research Intern, **FudanNLP Lab**, Fudan University</span><span class="lang-zh">**2024.4 - 2024.7** · 研究实习生，**FudanNLP 实验室**，复旦大学</span></span><br><span class="lang-en">*LLM safety: training red-team models for attack and defense*</span><span class="lang-zh">*大模型安全：训练用于攻防的红队模型*</span>
 
 # 📝 <span class="lang-en">Publications</span><span class="lang-zh">论文发表</span> {#publications}
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/ahe-beta-overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses
+
+**Jiahang Lin**\*, Jiahao Chen\*, Yiding Wang\*, Shichun Liu, Chengjun Pan, Shihan Dou, Honglin Guo, Yuyang Hu, Changhao Jiang, Zhenhua Han, Hang Yan, Qi Zhang, Tao Gui<small>†</small>, Xuanjing Huang<small>†</small>
+
+- <span class="lang-en">AHE-Beta is a requirement-centered loop for harness evolution: user-driven evaluation lets simulated users raise explicit and implicit requirements as issues, team-based modification turns them into generalizable changes, and requirement-driven selection merges a change only when it resolves a verified requirement.</span><span class="lang-zh">AHE-Beta 是一个以需求为中心的 harness 演化循环：用户驱动的评测让模拟用户在多轮协作中以 issue 形式提出显式与隐式需求，团队式修改把需求实现为可泛化的改动，需求驱动的选择只合并解决了已验证需求的改动。</span>
+- <span class="lang-en">On held-out tasks, AHE-Beta raises pass@1 from 21.9% to 33.3% with 40.8% fewer tokens and beats Claude Code, Meta-Harness and AHE. Real users prefer it in 31 of 48 blind A/B pairs, and the gains transfer to GLM-5.3 and DeepSeek-V4.1-Flash without further evolution.</span><span class="lang-zh">在 held-out 任务上，AHE-Beta 将 pass@1 从 21.9% 提升至 33.3%，同时减少 40.8% 的 tokens，并超过 Claude Code、Meta-Harness 与 AHE。真实用户在 48 组盲测 A/B 中有 31 组更偏好 AHE-Beta，且无需重新演化即可迁移到 GLM-5.3 与 DeepSeek-V4.1-Flash。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2611.24924v1) \| [![](https://img.shields.io/badge/Code-fff?logo=github&logoColor=000)](https://github.com/Curry09/AHE-Beta) \| [![](https://img.shields.io/github/stars/Curry09/AHE-Beta?style=social)](https://github.com/Curry09/AHE-Beta) <span class='show_s2_citations' data='2611.24924'></span>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/are-bench-teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### ARE-bench: Benchmarking Agents' Research Ability in Real-World Researcher Sessions and Workspaces
+
+**Jiahang Lin**\*, Wanying Ren\*, Wanghan Xu\*, Huayu Sha, Yang Shu, Zhonghang Lu, Chengjun Pan, Yi Dong, Shichun Liu, Yuyang Hu, Shihan Dou, Honglin Guo, Huijie Lv, Pujun Zheng, Zhe Sun, Yuankai Ying, Yiding Wang, Jiahao Chen, Zhixiong Yang, Dingbo Yuan, Yicheng Zou, Zhecan Wang, Guoxiu He, Xiaoyu Xing, Qi Zhang<small>†</small>, Tao Gui<small>†</small>, Xuanjing Huang <small>(\* project leaders)</small>
+
+- <span class="lang-en">ARE-bench evaluates whether research agents advance ongoing projects while respecting prior decisions and existing workspace state. Its 75 tasks are built from real sessions and full workspaces of recruited researchers' own projects, spanning seven research stages with 1,173 binary checklist items.</span><span class="lang-zh">ARE-bench 评测科研智能体能否在尊重既往决策与现有工作区状态的前提下推进进行中的项目。75 个任务构建自受邀研究者真实项目的会话与完整工作区，覆盖七个科研阶段，共 1,173 条二值检查项。</span>
+- <span class="lang-en">Across seven frontier models, the strongest passes every checklist item on only 66.2% of tasks. Pass rates drop from about 69% to 28.4%–40.0% once historical and workspace requirements are checked, so ignoring context overestimates research agents.</span><span class="lang-zh">在七个前沿模型中，最强模型也只在 66.2% 的任务上通过全部检查项。加入历史与工作区需求后，通过率从约 69% 降至 28.4%–40.0%，说明忽略上下文会高估科研智能体。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2611.14364v1) <span class='show_s2_citations' data='2611.14364'></span>
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/agentic-harness-engineering-training-curve.webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -124,6 +156,21 @@ Shihan Dou\*, Shaofan Liu\*, Zhonghang Lu\*, **Jiahang Lin**, Shichun Liu, Bingh
 - <span class="lang-en">EvoIn is an agent fine-tuning framework that bridges evolution and internalization: it analyzes execution traces to evolve and validate new decision-making procedures by temporarily instantiating them in the harness, then rewrites the resulting traces into self-contained reasoning so the procedures persist without the evolved harness at inference time.</span><span class="lang-zh">EvoIn 是一个打通「进化」与「内化」的智能体微调框架：先分析执行轨迹，通过把新的决策流程临时注入 harness 来进化并验证它们，再把由此得到的轨迹改写为自包含的推理，使这些流程在推理时脱离进化后的 harness 依然保留。</span>
 - <span class="lang-en">Fine-tuning on the rewritten traces improves performance by 10.9 points in-domain and 9.2 points out-of-domain, and the internalized procedures generalize to unseen tasks — agents learn, for example, to adapt their verification effort to task complexity.</span><span class="lang-zh">在改写后的轨迹上微调带来域内 10.9 分、域外 9.2 分的提升，且内化后的决策流程可泛化到未见任务——例如智能体会学到按任务复杂度调整验证力度。</span>
 - [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2609.35290) <span class='show_s2_citations' data='2609.35290'></span>
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2026</div><img src='../images/sage-s2.1-flash.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+### Sage S2.1 Flash Technical Report
+
+Kun Cai, Haodong Chen, …, **Jiahang Lin**<small> (core contributor)</small>, …, Qi Zhang, Bowen Zhou
+
+- <span class="lang-en">Sage S2.1 Flash is a 320B general-purpose mixture-of-experts model that reasons over scientific evidence and acts in interactive environments, with dedicated encoders for molecules, biological sequences and spectra, and verifiable environments for tool use, search, coding and ML experiments.</span><span class="lang-zh">Sage S2.1 Flash 是一个 320B 的通用混合专家模型，能基于科学证据推理并在交互环境中行动，配有分子、生物序列与谱图的专用编码器，并在工具调用、搜索、编程与机器学习实验的可验证环境中训练。</span>
+- <span class="lang-en">Across 33 benchmarks in seven domains, it ranks first on OfficeQA Pro, MLE-bench Lite (90.3 HumanRank), Harvey LAB and SpreadsheetBench 2, and second on OSWorld-Verified, WebArena-Verified and DeepResearch Bench II.</span><span class="lang-zh">在七个领域的 33 个基准上，它在 OfficeQA Pro、MLE-bench Lite（90.3 HumanRank）、Harvey LAB 与 SpreadsheetBench 2 上排名第一，在 OSWorld-Verified、WebArena-Verified 与 DeepResearch Bench II 上排名第二。</span>
+- [![](https://img.shields.io/badge/Paper-fff?logo=readthedocs&logoColor=000)](https://arxiv.org/abs/2611.21072v2) <span class='show_s2_citations' data='2611.21072'></span>
 
 </div>
 </div>
